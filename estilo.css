@@ -11,9 +11,9 @@ body {
 }
 
 div#interface {
-    width: 900px;
+    width: 920px;
     background-color: #ffffff;
-    margin: -20px auto 0px auto;
+    margin: -20px auto 5px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px;
 }
@@ -34,7 +34,7 @@ a:hover{
 
 header#cabecalho img#icone{
     position: absolute;
-    left: 780px;
+    left: 1240px;
     top: 70px;
 }
 
@@ -102,7 +102,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 750px;
 }
 
 nav#menu li {
@@ -151,7 +151,7 @@ article#noticia-principal h2 {
     margin: 10px 0px 10px 0px;
 }
 
-head#cabecalho-artigo h1{
+header#cabecalho-artigo h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
     color: #606060;
@@ -163,14 +163,14 @@ head#cabecalho-artigo h1{
     text-align: right;
 }
 
-head#cabecalho-artigo h2{
+header#cabecalho-artigo h2{
     font-size: 13pt;
     color: #cecece;
     background-color: white;
     margin: 0px
 }
 
-head#cabecalho-artigo h3{
+header#cabecalho-artigo h3{
     font-size: 12px;
     color: #606060;
 }
@@ -230,9 +230,7 @@ aside#lateral h1{
     color: #606060;
 }
 
-aside#lateral h1{
-    margin-top: 0;
-}
+
 
 aside#lateral h2{
     background-color: #606060;
